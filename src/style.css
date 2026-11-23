@@ -471,6 +471,10 @@ body {
     font-size: 9.5px;
   }
 
+  .lock span {
+    display: none;
+  }
+
   .terminal {
     padding-left: calc(env(safe-area-inset-left, 0px) + 12px);
     padding-right: calc(env(safe-area-inset-right, 0px) + 12px);

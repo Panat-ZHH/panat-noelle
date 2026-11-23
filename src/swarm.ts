@@ -373,7 +373,7 @@ export class Swarm {
 
   layoutFinale(dpr: number) {
     this.bloom.layout(this.w, this.h);
-    const font = clamp(this.bloom.S / 30, 6.5, 11);
+    const font = clamp(this.bloom.S / 30, 5.5, 11);
     this.atlasF.build(font, dpr, 1.7);
     this.sizeF = this.atlas.font / font;
   }
